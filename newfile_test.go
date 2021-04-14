@@ -7,8 +7,8 @@ import (
 )
 
 func TestDemo(t *testing.T) {
-	one := "one"
-	two := "one"
+	one := "two"
+	two := "two"
 
 	assert.Equal(t, one, two, "the two variables should be the same value")
 }
